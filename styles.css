@@ -35,7 +35,14 @@ section ul {
     list-style: none;
 }
 
-section ul li {
+
+
+section ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;   
     background: #4263EB;
     width: 100%;
     height: 50px;
@@ -46,16 +53,7 @@ section ul li {
     justify-content: center;
     cursor: pointer;
     transition: all 0.4s;
-
 }
-section ul li:hover{
+section ul li a:hover{
     background: #3447D3;
-}
-
-section ul li a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 14px;   
 }
